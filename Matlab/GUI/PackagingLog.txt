@@ -1,0 +1,23 @@
+ant:
+<ant>
+  <mkdir dir="D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_redistribution" />
+  <mkdir dir="D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_testing" />
+  <mkdir dir="D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_redistribution_files_only" />
+</ant>
+mcc -C -o GUI -W WinMain:GUI -T link:exe -d 'D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_testing' -v 'D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI.m' -a 'D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI.fig' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\Documents\BGU Programing\computer structure\Final
+Project\Matlab" to Compiler path instance.] 
+Parsing file "D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_testing\GUI.exe.
+Attempting to embed the CTF archive into the application D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_testing\GUI.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\Documents\BGU Programing\computer structure\Final Project\Matlab\GUI\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 3 minutes and 9 seconds.
